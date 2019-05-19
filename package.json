@@ -1,0 +1,19 @@
+{
+  "name": "webpack-basics",
+  "version": "1.0.0",
+  "description": "This repo contains the basics of webpack right from the scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venkat749/webpack-basics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/venkat749/webpack-basics/issues"
+  },
+  "homepage": "https://github.com/venkat749/webpack-basics#readme"
+}
