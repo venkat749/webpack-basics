@@ -4,7 +4,9 @@
   "description": "This repo contains the basics of webpack right from the scratch",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --entry ./src/js/app.js --output ./dist/bundle.js --mode development",
+    "build:prod": "webpack --entry ./src/js/app.js --output ./dist/bundle.js -p "
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/venkat749/webpack-basics/issues"
   },
-  "homepage": "https://github.com/venkat749/webpack-basics#readme"
+  "homepage": "https://github.com/venkat749/webpack-basics#readme",
+  "dependencies": {
+    "webpack": "^4.31.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.2"
+  }
 }
